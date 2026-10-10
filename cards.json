@@ -1,0 +1,1538 @@
+[
+{
+"key": "anaheim/Gauthier",
+"slug": "anaheim",
+"name": "Gauthier",
+"pos": "LW",
+"born": "Jan 19, 2004",
+"bp": "Skellefteå, Sweden"
+},
+{
+"key": "anaheim/Carlsson",
+"slug": "anaheim",
+"name": "Carlsson",
+"pos": "C",
+"born": "Dec 26, 2004",
+"bp": "Karlstad, Sweden"
+},
+{
+"key": "anaheim/Sennecke",
+"slug": "anaheim",
+"name": "Sennecke",
+"pos": "RW",
+"born": "Jan 28, 2006",
+"bp": "Toronto, ON"
+},
+{
+"key": "anaheim/LaCombe",
+"slug": "anaheim",
+"name": "LaCombe",
+"pos": "LD",
+"born": "Jan 9, 2001",
+"bp": "Eden Prairie, MN"
+},
+{
+"key": "anaheim/Mintyukov",
+"slug": "anaheim",
+"name": "Mintyukov",
+"pos": "LD",
+"born": "Nov 25, 2003",
+"bp": "Moscow, Russia"
+},
+{
+"key": "anaheim/Dostal",
+"slug": "anaheim",
+"name": "Dostal",
+"pos": "G",
+"born": "Jun 22, 2000",
+"bp": "Brno, Czechia"
+},
+{
+"key": "boston/Geekie",
+"slug": "boston",
+"name": "Geekie",
+"pos": "LW",
+"born": "Jul 20, 1998",
+"bp": "Strathclair, MB"
+},
+{
+"key": "boston/E. Lindholm",
+"slug": "boston",
+"name": "E. Lindholm",
+"pos": "C",
+"born": "Dec 2, 1994",
+"bp": "Boden, Sweden"
+},
+{
+"key": "boston/Pastrnak",
+"slug": "boston",
+"name": "Pastrnak",
+"pos": "RW",
+"born": "May 25, 1996",
+"bp": "Havířov, Czechia"
+},
+{
+"key": "boston/H. Lindholm",
+"slug": "boston",
+"name": "H. Lindholm",
+"pos": "LD",
+"born": "Jan 20, 1994",
+"bp": "Helsingborg, Sweden"
+},
+{
+"key": "boston/McAvoy",
+"slug": "boston",
+"name": "McAvoy",
+"pos": "RD",
+"born": "Dec 21, 1997",
+"bp": "Long Beach, NY"
+},
+{
+"key": "boston/Swayman",
+"slug": "boston",
+"name": "Swayman",
+"pos": "G",
+"born": "Nov 24, 1998",
+"bp": "Anchorage, AK"
+},
+{
+"key": "buffalo/Benson",
+"slug": "buffalo",
+"name": "Benson",
+"pos": "LW",
+"born": "May 12, 2005",
+"bp": "Chilliwack, BC"
+},
+{
+"key": "buffalo/Norris",
+"slug": "buffalo",
+"name": "Norris",
+"pos": "C",
+"born": "May 5, 1999",
+"bp": "Oxford, MI"
+},
+{
+"key": "buffalo/Thompson",
+"slug": "buffalo",
+"name": "Thompson",
+"pos": "RW",
+"born": "Oct 30, 1997",
+"bp": "Phoenix, AZ"
+},
+{
+"key": "buffalo/Dahlin",
+"slug": "buffalo",
+"name": "Dahlin",
+"pos": "LD",
+"born": "Apr 13, 2000",
+"bp": "Lidköping, Sweden"
+},
+{
+"key": "buffalo/Power",
+"slug": "buffalo",
+"name": "Power",
+"pos": "RD",
+"born": "Nov 22, 2002",
+"bp": "Mississauga, ON"
+},
+{
+"key": "buffalo/Luukkonen",
+"slug": "buffalo",
+"name": "Luukkonen",
+"pos": "G",
+"born": "Mar 9, 1999",
+"bp": "Espoo, Finland"
+},
+{
+"key": "calgary/Huberdeau",
+"slug": "calgary",
+"name": "Huberdeau",
+"pos": "LW",
+"born": "Jun 4, 1993",
+"bp": "Saint-Jerome, QC"
+},
+{
+"key": "calgary/Backlund",
+"slug": "calgary",
+"name": "Backlund",
+"pos": "C",
+"born": "Mar 17, 1989",
+"bp": "Västerås, Sweden"
+},
+{
+"key": "calgary/Frost",
+"slug": "calgary",
+"name": "Frost",
+"pos": "RW",
+"born": "May 14, 1999",
+"bp": "Aurora, ON"
+},
+{
+"key": "calgary/Parekh",
+"slug": "calgary",
+"name": "Parekh",
+"pos": "LD",
+"born": "Feb 15, 2006",
+"bp": "Nobleton, ON"
+},
+{
+"key": "calgary/Nemec",
+"slug": "calgary",
+"name": "Nemec",
+"pos": "RD",
+"born": "Feb 15, 2004",
+"bp": "Liptovský Mikuláš, Slovakia"
+},
+{
+"key": "calgary/Wolf",
+"slug": "calgary",
+"name": "Wolf",
+"pos": "G",
+"born": "Apr 16, 2001",
+"bp": "Gilroy, CA"
+},
+{
+"key": "carolina/Svechnikov",
+"slug": "carolina",
+"name": "Svechnikov",
+"pos": "LW",
+"born": "Mar 26, 2000",
+"bp": "Barnaul, Russia"
+},
+{
+"key": "carolina/Aho",
+"slug": "carolina",
+"name": "Aho",
+"pos": "C",
+"born": "Jul 26, 1997",
+"bp": "Rauma, Finland"
+},
+{
+"key": "carolina/Jarvis",
+"slug": "carolina",
+"name": "Jarvis",
+"pos": "RW",
+"born": "Feb 1, 2002",
+"bp": "Winnipeg, MB"
+},
+{
+"key": "carolina/Slavin",
+"slug": "carolina",
+"name": "Slavin",
+"pos": "LD",
+"born": "May 1, 1994",
+"bp": "Denver, CO"
+},
+{
+"key": "carolina/Miller",
+"slug": "carolina",
+"name": "Miller",
+"pos": "RD",
+"born": "Jan 21, 2000",
+"bp": "Hopkins, MN"
+},
+{
+"key": "carolina/Bussi",
+"slug": "carolina",
+"name": "Bussi",
+"pos": "G",
+"born": "Jun 25, 1998",
+"bp": "Sound Beach, NY"
+},
+{
+"key": "chicago/Frondell",
+"slug": "chicago",
+"name": "Frondell",
+"pos": "LW",
+"born": "May 7, 2007",
+"bp": "Trångsund, Sweden"
+},
+{
+"key": "chicago/Bedard",
+"slug": "chicago",
+"name": "Bedard",
+"pos": "C",
+"born": "Jul 17, 2005",
+"bp": "North Vancouver, BC"
+},
+{
+"key": "chicago/Nazar",
+"slug": "chicago",
+"name": "Nazar",
+"pos": "RW",
+"born": "Jan 14, 2004",
+"bp": "Mount Clemens, MI"
+},
+{
+"key": "chicago/Byram",
+"slug": "chicago",
+"name": "Byram",
+"pos": "LD",
+"born": "Jun 13, 2001",
+"bp": "Cranbrook, BC"
+},
+{
+"key": "chicago/Levshunov",
+"slug": "chicago",
+"name": "Levshunov",
+"pos": "RD",
+"born": "Oct 28, 2005",
+"bp": "Zhlobin, Belarus"
+},
+{
+"key": "chicago/Knight",
+"slug": "chicago",
+"name": "Knight",
+"pos": "G",
+"born": "Apr 19, 2001",
+"bp": "Darien, CT"
+},
+{
+"key": "colorado/Nelson",
+"slug": "colorado",
+"name": "Nelson",
+"pos": "LW",
+"born": "Oct 15, 1991",
+"bp": "Warroad, MN"
+},
+{
+"key": "colorado/MacKinnon",
+"slug": "colorado",
+"name": "MacKinnon",
+"pos": "C",
+"born": "Sep 1, 1995",
+"bp": "Halifax, NS"
+},
+{
+"key": "colorado/Necas",
+"slug": "colorado",
+"name": "Necas",
+"pos": "RW",
+"born": "Jan 15, 1999",
+"bp": "Nové Město, Czechia"
+},
+{
+"key": "colorado/Toews",
+"slug": "colorado",
+"name": "Toews",
+"pos": "LD",
+"born": "Feb 21, 1994",
+"bp": "Abbotsford, BC"
+},
+{
+"key": "colorado/Makar",
+"slug": "colorado",
+"name": "Makar",
+"pos": "RD",
+"born": "Oct 30, 1998",
+"bp": "Calgary, AB"
+},
+{
+"key": "colorado/Blackwood",
+"slug": "colorado",
+"name": "Blackwood",
+"pos": "G",
+"born": "Dec 9, 1996",
+"bp": "Thunder Bay, ON"
+},
+{
+"key": "columbus/Nichushkin",
+"slug": "columbus",
+"name": "Nichushkin",
+"pos": "LW",
+"born": "Mar 4, 1995",
+"bp": "Chelyabinsk, Russia"
+},
+{
+"key": "columbus/Fantilli",
+"slug": "columbus",
+"name": "Fantilli",
+"pos": "C",
+"born": "Oct 12, 2004",
+"bp": "Nobleton, ON"
+},
+{
+"key": "columbus/Knies",
+"slug": "columbus",
+"name": "Knies",
+"pos": "LW",
+"born": "Oct 17, 2002",
+"bp": "Phoenix, AZ"
+},
+{
+"key": "columbus/Werenski",
+"slug": "columbus",
+"name": "Werenski",
+"pos": "LD",
+"born": "Jul 19, 1997",
+"bp": "Grosse Pointe, MI"
+},
+{
+"key": "columbus/Provorov",
+"slug": "columbus",
+"name": "Provorov",
+"pos": "RD",
+"born": "Jan 13, 1997",
+"bp": "Yaroslavl, Russia"
+},
+{
+"key": "columbus/Merzlikins",
+"slug": "columbus",
+"name": "Merzlikins",
+"pos": "G",
+"born": "Apr 13, 1994",
+"bp": "Riga, Latvia"
+},
+{
+"key": "dallas/Robertson",
+"slug": "dallas",
+"name": "Robertson",
+"pos": "LW",
+"born": "Jul 22, 1999",
+"bp": "Arcadia, CA"
+},
+{
+"key": "dallas/Johnston",
+"slug": "dallas",
+"name": "Johnston",
+"pos": "C",
+"born": "May 14, 2003",
+"bp": "Toronto, ON"
+},
+{
+"key": "dallas/Rantanen",
+"slug": "dallas",
+"name": "Rantanen",
+"pos": "RW",
+"born": "Oct 29, 1996",
+"bp": "Nousiainen, Finland"
+},
+{
+"key": "dallas/Heiskanen",
+"slug": "dallas",
+"name": "Heiskanen",
+"pos": "LD",
+"born": "Jul 18, 1999",
+"bp": "Espoo, Finland"
+},
+{
+"key": "dallas/Harley",
+"slug": "dallas",
+"name": "Harley",
+"pos": "RD",
+"born": "Aug 19, 2001",
+"bp": "Syracuse, NY"
+},
+{
+"key": "dallas/Oettinger",
+"slug": "dallas",
+"name": "Oettinger",
+"pos": "G",
+"born": "Dec 18, 1998",
+"bp": "Lakeville, MN"
+},
+{
+"key": "detroit/Raymond",
+"slug": "detroit",
+"name": "Raymond",
+"pos": "LW",
+"born": "Mar 28, 2002",
+"bp": "Göteborg, Sweden"
+},
+{
+"key": "detroit/Larkin",
+"slug": "detroit",
+"name": "Larkin",
+"pos": "C",
+"born": "Jul 30, 1996",
+"bp": "Waterford, MI"
+},
+{
+"key": "detroit/DeBrincat",
+"slug": "detroit",
+"name": "DeBrincat",
+"pos": "RW",
+"born": "Dec 18, 1997",
+"bp": "Farmington Hills, MI"
+},
+{
+"key": "detroit/Faulk",
+"slug": "detroit",
+"name": "Faulk",
+"pos": "LD",
+"born": "Mar 20, 1992",
+"bp": "South Saint Paul, MN"
+},
+{
+"key": "detroit/Seider",
+"slug": "detroit",
+"name": "Seider",
+"pos": "RD",
+"born": "Apr 6, 2001",
+"bp": "Zell, Germany"
+},
+{
+"key": "detroit/Gibson",
+"slug": "detroit",
+"name": "Gibson",
+"pos": "G",
+"born": "Jul 14, 1993",
+"bp": "Pittsburgh, PA"
+},
+{
+"key": "edmonton/Nugent-Hopkins",
+"slug": "edmonton",
+"name": "Nugent-Hopkins",
+"pos": "LW",
+"born": "Apr 12, 1993",
+"bp": "Burnaby, BC"
+},
+{
+"key": "edmonton/McDavid",
+"slug": "edmonton",
+"name": "McDavid",
+"pos": "C",
+"born": "Jan 13, 1997",
+"bp": "Richmond Hill, ON"
+},
+{
+"key": "edmonton/Draisaitl",
+"slug": "edmonton",
+"name": "Draisaitl",
+"pos": "RW",
+"born": "Oct 27, 1995",
+"bp": "Cologne, Germany"
+},
+{
+"key": "edmonton/Walman",
+"slug": "edmonton",
+"name": "Walman",
+"pos": "LD",
+"born": "Feb 20, 1996",
+"bp": "Toronto, ON"
+},
+{
+"key": "edmonton/Bouchard",
+"slug": "edmonton",
+"name": "Bouchard",
+"pos": "RD",
+"born": "Oct 20, 1999",
+"bp": "Oakville, ON"
+},
+{
+"key": "edmonton/Andersen",
+"slug": "edmonton",
+"name": "Andersen",
+"pos": "G",
+"born": "Oct 2, 1989",
+"bp": "Herning, Denmark"
+},
+{
+"key": "florida/Marchand",
+"slug": "florida",
+"name": "Marchand",
+"pos": "LW",
+"born": "May 11, 1988",
+"bp": "Halifax, NS"
+},
+{
+"key": "florida/Barkov",
+"slug": "florida",
+"name": "Barkov",
+"pos": "C",
+"born": "Sep 2, 1995",
+"bp": "Tampere, Finland"
+},
+{
+"key": "florida/Reinhart",
+"slug": "florida",
+"name": "Reinhart",
+"pos": "RW",
+"born": "Nov 6, 1995",
+"bp": "Vancouver, BC"
+},
+{
+"key": "florida/Forsling",
+"slug": "florida",
+"name": "Forsling",
+"pos": "LD",
+"born": "Jun 12, 1996",
+"bp": "Linköping, Sweden"
+},
+{
+"key": "florida/Jones",
+"slug": "florida",
+"name": "Jones",
+"pos": "RD",
+"born": "Oct 3, 1994",
+"bp": "Arlington, TX"
+},
+{
+"key": "florida/Markstrom",
+"slug": "florida",
+"name": "Markstrom",
+"pos": "G",
+"born": "Jan 31, 1990",
+"bp": "Gävle, Sweden"
+},
+{
+"key": "islanders/Palmieri",
+"slug": "islanders",
+"name": "Palmieri",
+"pos": "LW",
+"born": "Feb 1, 1991",
+"bp": "Smithtown, NY"
+},
+{
+"key": "islanders/Horvat",
+"slug": "islanders",
+"name": "Horvat",
+"pos": "C",
+"born": "Apr 5, 1995",
+"bp": "Rodney, ON"
+},
+{
+"key": "islanders/Barzal",
+"slug": "islanders",
+"name": "Barzal",
+"pos": "RW",
+"born": "May 26, 1997",
+"bp": "Coquitlam, BC"
+},
+{
+"key": "islanders/Schaefer",
+"slug": "islanders",
+"name": "Schaefer",
+"pos": "LD",
+"born": "Sep 5, 2007",
+"bp": "Hamilton, ON"
+},
+{
+"key": "islanders/Pulock",
+"slug": "islanders",
+"name": "Pulock",
+"pos": "RD",
+"born": "Oct 6, 1994",
+"bp": "Dauphin, MB"
+},
+{
+"key": "islanders/Sorokin",
+"slug": "islanders",
+"name": "Sorokin",
+"pos": "G",
+"born": "Aug 4, 1995",
+"bp": "Mezhdurechensk, Russia"
+},
+{
+"key": "la/Panarin",
+"slug": "la",
+"name": "Panarin",
+"pos": "LW",
+"born": "Oct 30, 1991",
+"bp": "Korkino, Russia"
+},
+{
+"key": "la/Kempe",
+"slug": "la",
+"name": "Kempe",
+"pos": "C",
+"born": "Sep 13, 1996",
+"bp": "Kramfors, Sweden"
+},
+{
+"key": "la/Fiala",
+"slug": "la",
+"name": "Fiala",
+"pos": "RW",
+"born": "Jul 22, 1996",
+"bp": "St. Gallen, Switzerland"
+},
+{
+"key": "la/Clarke",
+"slug": "la",
+"name": "Clarke",
+"pos": "LD",
+"born": "Feb 9, 2003",
+"bp": "Ottawa, ON"
+},
+{
+"key": "la/Doughty",
+"slug": "la",
+"name": "Doughty",
+"pos": "RD",
+"born": "Dec 8, 1989",
+"bp": "London, ON"
+},
+{
+"key": "la/Kuemper",
+"slug": "la",
+"name": "Kuemper",
+"pos": "G",
+"born": "May 5, 1990",
+"bp": "Saskatoon, SK"
+},
+{
+"key": "minnesota/Kaprizov",
+"slug": "minnesota",
+"name": "Kaprizov",
+"pos": "LW",
+"born": "Apr 26, 1997",
+"bp": "Novokuznetsk, Russia"
+},
+{
+"key": "minnesota/Eriksson Ek",
+"slug": "minnesota",
+"name": "Eriksson Ek",
+"pos": "C",
+"born": "Jan 29, 1997",
+"bp": "Karlstad, Sweden"
+},
+{
+"key": "minnesota/Boldy",
+"slug": "minnesota",
+"name": "Boldy",
+"pos": "RW",
+"born": "Apr 5, 2001",
+"bp": "Milford, MA"
+},
+{
+"key": "minnesota/Hughes",
+"slug": "minnesota",
+"name": "Hughes",
+"pos": "LD",
+"born": "Oct 14, 1999",
+"bp": "Orlando, FL"
+},
+{
+"key": "minnesota/Faber",
+"slug": "minnesota",
+"name": "Faber",
+"pos": "RD",
+"born": "Aug 22, 2002",
+"bp": "Maple Grove, MN"
+},
+{
+"key": "minnesota/Wallstedt",
+"slug": "minnesota",
+"name": "Wallstedt",
+"pos": "G",
+"born": "Nov 14, 2002",
+"bp": "Västerås, Sweden"
+},
+{
+"key": "montreal/Slafkovsky",
+"slug": "montreal",
+"name": "Slafkovsky",
+"pos": "LW",
+"born": "Mar 30, 2004",
+"bp": "Košice, Slovakia"
+},
+{
+"key": "montreal/Suzuki",
+"slug": "montreal",
+"name": "Suzuki",
+"pos": "C",
+"born": "Aug 10, 1999",
+"bp": "London, ON"
+},
+{
+"key": "montreal/Caufield",
+"slug": "montreal",
+"name": "Caufield",
+"pos": "RW",
+"born": "Jan 2, 2001",
+"bp": "Mosinee, WI"
+},
+{
+"key": "montreal/Hutson",
+"slug": "montreal",
+"name": "Hutson",
+"pos": "LD",
+"born": "Feb 14, 2004",
+"bp": "Holland, MI"
+},
+{
+"key": "montreal/Matheson",
+"slug": "montreal",
+"name": "Matheson",
+"pos": "RD",
+"born": "Feb 27, 1994",
+"bp": "Pointe-Claire, QC"
+},
+{
+"key": "montreal/Dobes",
+"slug": "montreal",
+"name": "Dobes",
+"pos": "G",
+"born": "May 27, 2001",
+"bp": "Ostrava, Czechia"
+},
+{
+"key": "nashville/Forsberg",
+"slug": "nashville",
+"name": "Forsberg",
+"pos": "LW",
+"born": "Aug 13, 1994",
+"bp": "Östervåla, Sweden"
+},
+{
+"key": "nashville/O\\",
+"slug": "nashville",
+"name": "O\\",
+"pos": "C",
+"born": "Feb 7, 1991",
+"bp": "Clinton, ON"
+},
+{
+"key": "nashville/Stamkos",
+"slug": "nashville",
+"name": "Stamkos",
+"pos": "RW",
+"born": "Feb 7, 1990",
+"bp": "Markham, ON"
+},
+{
+"key": "nashville/Josi",
+"slug": "nashville",
+"name": "Josi",
+"pos": "LD",
+"born": "Jun 1, 1990",
+"bp": "Bern, Switzerland"
+},
+{
+"key": "nashville/Skjei",
+"slug": "nashville",
+"name": "Skjei",
+"pos": "RD",
+"born": "Mar 26, 1994",
+"bp": "Lakeville, MN"
+},
+{
+"key": "nashville/Saros",
+"slug": "nashville",
+"name": "Saros",
+"pos": "G",
+"born": "Apr 19, 1995",
+"bp": "Forssa, Finland"
+},
+{
+"key": "newjersey/J. Hughes",
+"slug": "newjersey",
+"name": "J. Hughes",
+"pos": "LW",
+"born": "May 14, 2001",
+"bp": "Orlando, FL"
+},
+{
+"key": "newjersey/Hischier",
+"slug": "newjersey",
+"name": "Hischier",
+"pos": "C",
+"born": "Jan 4, 1999",
+"bp": "Naters, Switzerland"
+},
+{
+"key": "newjersey/Bratt",
+"slug": "newjersey",
+"name": "Bratt",
+"pos": "RW",
+"born": "Jul 30, 1998",
+"bp": "Stockholm, Sweden"
+},
+{
+"key": "newjersey/L. Hughes",
+"slug": "newjersey",
+"name": "L. Hughes",
+"pos": "LD",
+"born": "Sep 9, 2003",
+"bp": "Manchester, NH"
+},
+{
+"key": "newjersey/Hamilton",
+"slug": "newjersey",
+"name": "Hamilton",
+"pos": "RD",
+"born": "Jun 17, 1993",
+"bp": "Toronto, ON"
+},
+{
+"key": "newjersey/Allen",
+"slug": "newjersey",
+"name": "Allen",
+"pos": "G",
+"born": "Aug 7, 1990",
+"bp": "Fredericton, NB"
+},
+{
+"key": "ottawa/Stützle",
+"slug": "ottawa",
+"name": "Stützle",
+"pos": "LW",
+"born": "Jan 15, 2002",
+"bp": "Viersen, Germany"
+},
+{
+"key": "ottawa/Pinto",
+"slug": "ottawa",
+"name": "Pinto",
+"pos": "C",
+"born": "Nov 12, 2000",
+"bp": "Franklin Square, NY"
+},
+{
+"key": "ottawa/Batherson",
+"slug": "ottawa",
+"name": "Batherson",
+"pos": "RW",
+"born": "Apr 27, 1998",
+"bp": "Fort Wayne, IN"
+},
+{
+"key": "ottawa/Sanderson",
+"slug": "ottawa",
+"name": "Sanderson",
+"pos": "LD",
+"born": "Jul 8, 2002",
+"bp": "Whitefish, MT"
+},
+{
+"key": "ottawa/Chabot",
+"slug": "ottawa",
+"name": "Chabot",
+"pos": "RD",
+"born": "Jan 30, 1997",
+"bp": "Sainte-Marie, QC"
+},
+{
+"key": "ottawa/Ullmark",
+"slug": "ottawa",
+"name": "Ullmark",
+"pos": "G",
+"born": "Jul 31, 1993",
+"bp": "Lugnvik, Sweden"
+},
+{
+"key": "philadelphia/Zegras",
+"slug": "philadelphia",
+"name": "Zegras",
+"pos": "LW",
+"born": "Mar 20, 2001",
+"bp": "Bedford, NY"
+},
+{
+"key": "philadelphia/Konecny",
+"slug": "philadelphia",
+"name": "Konecny",
+"pos": "C",
+"born": "Mar 11, 1997",
+"bp": "London, ON"
+},
+{
+"key": "philadelphia/Martone",
+"slug": "philadelphia",
+"name": "Martone",
+"pos": "RW",
+"born": "Oct 26, 2006",
+"bp": "Peterborough, ON"
+},
+{
+"key": "philadelphia/Sanheim",
+"slug": "philadelphia",
+"name": "Sanheim",
+"pos": "LD",
+"born": "Mar 29, 1996",
+"bp": "Elkhorn, MB"
+},
+{
+"key": "philadelphia/Drysdale",
+"slug": "philadelphia",
+"name": "Drysdale",
+"pos": "RD",
+"born": "Apr 8, 2002",
+"bp": "Toronto, ON"
+},
+{
+"key": "philadelphia/Woll",
+"slug": "philadelphia",
+"name": "Woll",
+"pos": "G",
+"born": "Jul 12, 1998",
+"bp": "Dardenne Prairie, MO"
+},
+{
+"key": "pittsburgh/Malkin",
+"slug": "pittsburgh",
+"name": "Malkin",
+"pos": "C",
+"born": "Jul 31, 1986",
+"bp": "Magnitogorsk, Russia"
+},
+{
+"key": "pittsburgh/Crosby",
+"slug": "pittsburgh",
+"name": "Crosby",
+"pos": "C",
+"born": "Aug 7, 1987",
+"bp": "Cole Harbour, NS"
+},
+{
+"key": "pittsburgh/Rust",
+"slug": "pittsburgh",
+"name": "Rust",
+"pos": "RW",
+"born": "May 11, 1992",
+"bp": "Pontiac, MI"
+},
+{
+"key": "pittsburgh/Karlsson",
+"slug": "pittsburgh",
+"name": "Karlsson",
+"pos": "LD",
+"born": "May 31, 1990",
+"bp": "Landsbro, Sweden"
+},
+{
+"key": "pittsburgh/Letang",
+"slug": "pittsburgh",
+"name": "Letang",
+"pos": "RD",
+"born": "Apr 24, 1987",
+"bp": "Montreal, QC"
+},
+{
+"key": "pittsburgh/Silovs",
+"slug": "pittsburgh",
+"name": "Silovs",
+"pos": "G",
+"born": "Mar 22, 2001",
+"bp": "Riga, Latvia"
+},
+{
+"key": "rangers/Dorofeyev",
+"slug": "rangers",
+"name": "Dorofeyev",
+"pos": "LW",
+"born": "Oct 26, 2000",
+"bp": "Nizhny Tagil, Russia"
+},
+{
+"key": "rangers/Zibanejad",
+"slug": "rangers",
+"name": "Zibanejad",
+"pos": "C",
+"born": "Apr 18, 1993",
+"bp": "Huddinge, Sweden"
+},
+{
+"key": "rangers/Perreault",
+"slug": "rangers",
+"name": "Perreault",
+"pos": "RW",
+"born": "May 7, 2005",
+"bp": "Hinsdale, IL"
+},
+{
+"key": "rangers/Gavrikov",
+"slug": "rangers",
+"name": "Gavrikov",
+"pos": "LD",
+"born": "Nov 21, 1995",
+"bp": "Yaroslavl, Russia"
+},
+{
+"key": "rangers/Fox",
+"slug": "rangers",
+"name": "Fox",
+"pos": "RD",
+"born": "Feb 17, 1998",
+"bp": "Jericho, NY"
+},
+{
+"key": "rangers/Shesterkin",
+"slug": "rangers",
+"name": "Shesterkin",
+"pos": "G",
+"born": "Dec 30, 1995",
+"bp": "Moscow, Russia"
+},
+{
+"key": "sanjose/Smith",
+"slug": "sanjose",
+"name": "Smith",
+"pos": "C",
+"born": "Mar 17, 2005",
+"bp": "Lexington, MA"
+},
+{
+"key": "sanjose/Celebrini",
+"slug": "sanjose",
+"name": "Celebrini",
+"pos": "C",
+"born": "Jun 13, 2006",
+"bp": "North Vancouver, BC"
+},
+{
+"key": "sanjose/Misa",
+"slug": "sanjose",
+"name": "Misa",
+"pos": "C",
+"born": "Feb 16, 2007",
+"bp": "Oakville, ON"
+},
+{
+"key": "sanjose/Orlov",
+"slug": "sanjose",
+"name": "Orlov",
+"pos": "LD",
+"born": "Jul 23, 1991",
+"bp": "Novokuznetsk, Russia"
+},
+{
+"key": "sanjose/Nurse",
+"slug": "sanjose",
+"name": "Nurse",
+"pos": "RD",
+"born": "Feb 4, 1995",
+"bp": "Hamilton, ON"
+},
+{
+"key": "sanjose/Askarov",
+"slug": "sanjose",
+"name": "Askarov",
+"pos": "G",
+"born": "Jun 16, 2002",
+"bp": "Omsk, Russia"
+},
+{
+"key": "seattle/Beniers",
+"slug": "seattle",
+"name": "Beniers",
+"pos": "C",
+"born": "Nov 5, 2002",
+"bp": "Hingham, MA"
+},
+{
+"key": "seattle/McCann",
+"slug": "seattle",
+"name": "McCann",
+"pos": "LW",
+"born": "May 31, 1996",
+"bp": "Stratford, ON"
+},
+{
+"key": "seattle/Catton",
+"slug": "seattle",
+"name": "Catton",
+"pos": "C",
+"born": "Jan 14, 2006",
+"bp": "Saskatoon, SK"
+},
+{
+"key": "seattle/Dunn",
+"slug": "seattle",
+"name": "Dunn",
+"pos": "LD",
+"born": "Oct 29, 1996",
+"bp": "Mississauga, ON"
+},
+{
+"key": "seattle/Montour",
+"slug": "seattle",
+"name": "Montour",
+"pos": "RD",
+"born": "Apr 11, 1994",
+"bp": "Brantford, ON"
+},
+{
+"key": "seattle/Daccord",
+"slug": "seattle",
+"name": "Daccord",
+"pos": "G",
+"born": "Aug 19, 1996",
+"bp": "Boston, MA"
+},
+{
+"key": "stlouis/Thomas",
+"slug": "stlouis",
+"name": "Thomas",
+"pos": "C",
+"born": "Jul 2, 1999",
+"bp": "Aurora, ON"
+},
+{
+"key": "stlouis/Holloway",
+"slug": "stlouis",
+"name": "Holloway",
+"pos": "LW",
+"born": "Sep 23, 2001",
+"bp": "Calgary, AB"
+},
+{
+"key": "stlouis/McTavish",
+"slug": "stlouis",
+"name": "McTavish",
+"pos": "C",
+"born": "Jan 30, 2003",
+"bp": "Zurich, Switzerland"
+},
+{
+"key": "stlouis/Broberg",
+"slug": "stlouis",
+"name": "Broberg",
+"pos": "LD",
+"born": "Jun 25, 2001",
+"bp": "Örebro, Sweden"
+},
+{
+"key": "stlouis/Parayko",
+"slug": "stlouis",
+"name": "Parayko",
+"pos": "RD",
+"born": "May 12, 1993",
+"bp": "St. Albert, AB"
+},
+{
+"key": "stlouis/Hofer",
+"slug": "stlouis",
+"name": "Hofer",
+"pos": "G",
+"born": "Jul 30, 2000",
+"bp": "Winnipeg, MB"
+},
+{
+"key": "tampa/Kucherov",
+"slug": "tampa",
+"name": "Kucherov",
+"pos": "RW",
+"born": "Jun 17, 1993",
+"bp": "Maykop, Russia"
+},
+{
+"key": "tampa/Point",
+"slug": "tampa",
+"name": "Point",
+"pos": "C",
+"born": "Mar 13, 1996",
+"bp": "Calgary, AB"
+},
+{
+"key": "tampa/Guentzel",
+"slug": "tampa",
+"name": "Guentzel",
+"pos": "LW",
+"born": "Oct 6, 1994",
+"bp": "Omaha, NE"
+},
+{
+"key": "tampa/Hedman",
+"slug": "tampa",
+"name": "Hedman",
+"pos": "LD",
+"born": "Dec 18, 1990",
+"bp": "Örnsköldsvik, Sweden"
+},
+{
+"key": "tampa/Carlson",
+"slug": "tampa",
+"name": "Carlson",
+"pos": "RD",
+"born": "Jan 10, 1990",
+"bp": "Natick, MA"
+},
+{
+"key": "tampa/Vasilevskiy",
+"slug": "tampa",
+"name": "Vasilevskiy",
+"pos": "G",
+"born": "Jul 25, 1994",
+"bp": "Tyumen, Russia"
+},
+{
+"key": "toronto/Nylander",
+"slug": "toronto",
+"name": "Nylander",
+"pos": "RW",
+"born": "May 1, 1996",
+"bp": "Calgary, AB"
+},
+{
+"key": "toronto/Matthews",
+"slug": "toronto",
+"name": "Matthews",
+"pos": "C",
+"born": "Sep 17, 1997",
+"bp": "San Ramon, CA"
+},
+{
+"key": "toronto/Marchenko",
+"slug": "toronto",
+"name": "Marchenko",
+"pos": "RW",
+"born": "Jul 21, 2000",
+"bp": "Barnaul, Russia"
+},
+{
+"key": "toronto/Rielly",
+"slug": "toronto",
+"name": "Rielly",
+"pos": "LD",
+"born": "Mar 9, 1994",
+"bp": "Vancouver, BC"
+},
+{
+"key": "toronto/Raddysh",
+"slug": "toronto",
+"name": "Raddysh",
+"pos": "RD",
+"born": "Feb 28, 1996",
+"bp": "Caledonia, ON"
+},
+{
+"key": "toronto/Bobrovsky",
+"slug": "toronto",
+"name": "Bobrovsky",
+"pos": "G",
+"born": "Sep 20, 1988",
+"bp": "Novokuznetsk, Russia"
+},
+{
+"key": "utah/Keller",
+"slug": "utah",
+"name": "Keller",
+"pos": "RW",
+"born": "Jul 29, 1998",
+"bp": "Chesterfield, MO"
+},
+{
+"key": "utah/Cooley",
+"slug": "utah",
+"name": "Cooley",
+"pos": "C",
+"born": "May 4, 2004",
+"bp": "Pittsburgh, PA"
+},
+{
+"key": "utah/Guenther",
+"slug": "utah",
+"name": "Guenther",
+"pos": "RW",
+"born": "Apr 10, 2003",
+"bp": "Edmonton, AB"
+},
+{
+"key": "utah/Sergachev",
+"slug": "utah",
+"name": "Sergachev",
+"pos": "LD",
+"born": "Jun 25, 1998",
+"bp": "Nizhnekamsk, Russia"
+},
+{
+"key": "utah/Weegar",
+"slug": "utah",
+"name": "Weegar",
+"pos": "RD",
+"born": "Jan 7, 1994",
+"bp": "Ottawa, ON"
+},
+{
+"key": "utah/Vejmelka",
+"slug": "utah",
+"name": "Vejmelka",
+"pos": "G",
+"born": "May 25, 1996",
+"bp": "Třebíč, Czechia"
+},
+{
+"key": "vancouver/Pettersson",
+"slug": "vancouver",
+"name": "Pettersson",
+"pos": "C",
+"born": "Nov 12, 1998",
+"bp": "Sundsvall, Sweden"
+},
+{
+"key": "vancouver/Rossi",
+"slug": "vancouver",
+"name": "Rossi",
+"pos": "C",
+"born": "Sep 23, 2001",
+"bp": "Feldkirch, Austria"
+},
+{
+"key": "vancouver/Boeser",
+"slug": "vancouver",
+"name": "Boeser",
+"pos": "RW",
+"born": "Feb 25, 1997",
+"bp": "Burnsville, MN"
+},
+{
+"key": "vancouver/Hronek",
+"slug": "vancouver",
+"name": "Hronek",
+"pos": "RD",
+"born": "Nov 2, 1997",
+"bp": "Hradec Králové, Czechia"
+},
+{
+"key": "vancouver/Buium",
+"slug": "vancouver",
+"name": "Buium",
+"pos": "LD",
+"born": "Dec 7, 2005",
+"bp": "San Diego, CA"
+},
+{
+"key": "vancouver/Demko",
+"slug": "vancouver",
+"name": "Demko",
+"pos": "G",
+"born": "Dec 8, 1995",
+"bp": "San Diego, CA"
+},
+{
+"key": "vegas/Marner",
+"slug": "vegas",
+"name": "Marner",
+"pos": "RW",
+"born": "May 5, 1997",
+"bp": "Markham, ON"
+},
+{
+"key": "vegas/Eichel",
+"slug": "vegas",
+"name": "Eichel",
+"pos": "C",
+"born": "Oct 28, 1996",
+"bp": "North Chelmsford, MA"
+},
+{
+"key": "vegas/Stone",
+"slug": "vegas",
+"name": "Stone",
+"pos": "RW",
+"born": "May 13, 1992",
+"bp": "Winnipeg, MB"
+},
+{
+"key": "vegas/Theodore",
+"slug": "vegas",
+"name": "Theodore",
+"pos": "LD",
+"born": "Aug 3, 1995",
+"bp": "Aldergrove, BC"
+},
+{
+"key": "vegas/Andersson",
+"slug": "vegas",
+"name": "Andersson",
+"pos": "RD",
+"born": "Oct 27, 1996",
+"bp": "Malmö, Sweden"
+},
+{
+"key": "vegas/Hart",
+"slug": "vegas",
+"name": "Hart",
+"pos": "G",
+"born": "Aug 13, 1998",
+"bp": "Sherwood Park, AB"
+},
+{
+"key": "washington/Ovechkin",
+"slug": "washington",
+"name": "Ovechkin",
+"pos": "LW",
+"born": "Sep 17, 1985",
+"bp": "Moscow, Russia"
+},
+{
+"key": "washington/Kyrou",
+"slug": "washington",
+"name": "Kyrou",
+"pos": "C",
+"born": "May 5, 1998",
+"bp": "Toronto, ON"
+},
+{
+"key": "washington/Wilson",
+"slug": "washington",
+"name": "Wilson",
+"pos": "RW",
+"born": "Mar 29, 1994",
+"bp": "Toronto, ON"
+},
+{
+"key": "washington/Chychrun",
+"slug": "washington",
+"name": "Chychrun",
+"pos": "LD",
+"born": "Mar 31, 1998",
+"bp": "Boca Raton, FL"
+},
+{
+"key": "washington/Hutson",
+"slug": "washington",
+"name": "Hutson",
+"pos": "RD",
+"born": "Jun 28, 2006",
+"bp": "Barrington, IL"
+},
+{
+"key": "washington/Thompson",
+"slug": "washington",
+"name": "Thompson",
+"pos": "G",
+"born": "Feb 25, 1997",
+"bp": "Calgary, AB"
+},
+{
+"key": "winnipeg/Connor",
+"slug": "winnipeg",
+"name": "Connor",
+"pos": "LW",
+"born": "Dec 9, 1996",
+"bp": "Shelby Township, MI"
+},
+{
+"key": "winnipeg/Scheifele",
+"slug": "winnipeg",
+"name": "Scheifele",
+"pos": "C",
+"born": "Mar 15, 1993",
+"bp": "Kitchener, ON"
+},
+{
+"key": "winnipeg/Vilardi",
+"slug": "winnipeg",
+"name": "Vilardi",
+"pos": "RW",
+"born": "Aug 16, 1999",
+"bp": "Kingston, ON"
+},
+{
+"key": "winnipeg/Morrissey",
+"slug": "winnipeg",
+"name": "Morrissey",
+"pos": "LD",
+"born": "Mar 28, 1995",
+"bp": "Calgary, AB"
+},
+{
+"key": "winnipeg/Pionk",
+"slug": "winnipeg",
+"name": "Pionk",
+"pos": "RD",
+"born": "Jul 29, 1995",
+"bp": "Hermantown, MN"
+},
+{
+"key": "winnipeg/Hellebuyck",
+"slug": "winnipeg",
+"name": "Hellebuyck",
+"pos": "G",
+"born": "May 19, 1993",
+"bp": "Commerce Twp., MI"
+}
+]

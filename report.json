@@ -1,12 +1,7 @@
 {
- "unmatched": {
-  "nashville/O\\": "0 candidates, none with birth date Feb 7, 1991",
-  "sanjose/Smith": "6 candidates, none with birth date Mar 17, 2005"
- },
- "warnings": {
-  "winnipeg/Pionk": "birth date did not match (card Jul 29, 1995) -- accepted as the only active Pionk"
- },
+ "unmatched": {},
+ "warnings": {},
  "errors": {},
- "matched": 190,
+ "matched": 192,
  "cards": 192
 }

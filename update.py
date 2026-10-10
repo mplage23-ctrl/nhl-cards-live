@@ -36,7 +36,7 @@ def season_now(today=None):
     return y * 10000 + y + 1                       # 20262027
 
 def landing(pid):
-    return get('https://api-web.nhle.com/v1/player/%d/landing' % pid)
+    return get('https://api-web.nhle.com/v1/player/%d/landing' % int(pid))
 
 def resolve(card):
     name = card['name']; m = re.match(r'^([A-Z])\.\s*(.+)$', name)

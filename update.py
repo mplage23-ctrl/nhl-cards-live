@@ -6,6 +6,9 @@
   stats.json   what the cards read: this season, career, last 5 games, last season's PPG
   report.json  anything that could not be matched, or matched with a warning
 
+Injuries: ESPN's public NHL injury feed. A card gets "inj" when ESPN lists the player as Out (not day-to-day,
+not suspended) and he has not played a game since the injury was reported.
+
 Only the Python standard library is used. Matching: NHL player search by surname -> active players ->
 initial / position / birthplace filters -> CONFIRMED by birth date on the player's landing page.
 """
@@ -55,18 +58,67 @@ def resolve(card):
     # confirm by birth date (the only reliable key -- see context §13 "identity before figures")
     for r in cands:
         L = landing(r['playerId']); time.sleep(0.2)
-        if L.get('birthDate') == want: return r['playerId'], None
+        if L.get('birthDate') == want: return int(r['playerId']), None
     if len(cands) == 1:
-        return cands[0]['playerId'], 'birth date did not match (card %s) -- accepted as the only active %s' % (card['born'], surname)
+        return int(cands[0]['playerId']), 'birth date did not match (card %s) -- accepted as the only active %s' % (card['born'], surname)
     return None, '%d candidates, none with birth date %s' % (len(cands), card['born'])
+
+
+# ---------- injuries (ESPN public feed) ----------
+ESPN_TEAMS = {'anaheim':'ANA','boston':'BOS','buffalo':'BUF','calgary':'CGY','carolina':'CAR','chicago':'CHI','colorado':'COL',
+  'columbus':'CBJ','dallas':'DAL','detroit':'DET','edmonton':'EDM','florida':'FLA','los angeles':'LAK','minnesota':'MIN',
+  'montreal':'MTL','nashville':'NSH','new jersey':'NJD','islanders':'NYI','rangers':'NYR','ottawa':'OTT','philadelphia':'PHI',
+  'pittsburgh':'PIT','san jose':'SJS','seattle':'SEA','st. louis':'STL','st louis':'STL','tampa':'TBL','toronto':'TOR','utah':'UTA',
+  'vancouver':'VAN','vegas':'VGK','washington':'WSH','winnipeg':'WPG'}
+def espn_abbrev(name):
+    n = norm(name)
+    for k, v in ESPN_TEAMS.items():
+        if k in n: return v
+    return None
+
+def injuries(report):
+    """-> {(TEAM, 'first last'): {...}} for players ESPN lists as Out (no day-to-day, no suspensions)."""
+    try:
+        d = get('https://site.api.espn.com/apis/site/v2/sports/hockey/nhl/injuries')
+    except Exception as ex:
+        report['errors']['_injuries'] = 'ESPN feed: %s' % ex; return None
+    out = {}
+    for t in d.get('injuries') or []:
+        ab = espn_abbrev(t.get('displayName') or '')
+        for i in t.get('injuries') or []:
+            st = (i.get('status') or '').strip(); typ = ((i.get('type') or {}).get('name') or '').upper()
+            sl = st.lower()
+            if 'day' in sl or 'susp' in sl or 'SUSPENSION' in typ or 'DAY' in typ: continue
+            if not ('out' in sl or 'reserve' in sl or 'OUT' in typ or 'RESERVE' in typ): continue
+            a = i.get('athlete') or {}; nm = norm(a.get('displayName') or '')
+            if not nm: continue
+            det = i.get('details') or {}
+            what = ' '.join(x for x in [det.get('side') if det.get('side') not in (None, 'Not Specified') else None,
+                                         det.get('type'), det.get('detail')] if x) or None
+            r = (det.get('returnDate') or '')[:10]
+            out[(ab, nm)] = {'s': st or 'Out', 'd': what, 'r': r or None, 'since': (i.get('date') or '')[:10] or None}
+    return out
+
+def match_injury(inj, L, team):
+    if not inj: return None
+    first = norm((L.get('firstName') or {}).get('default')); last = norm((L.get('lastName') or {}).get('default'))
+    hit = inj.get((team, first + ' ' + last))
+    if not hit:          # Alex/Alexander, Matt/Matthew ...: same team, same surname, same first initial, and only one
+        c = [v for (ab, nm), v in inj.items() if ab == team and nm.split()[-1] == last.split()[-1] and nm[:1] == first[:1]]
+        hit = c[0] if len(c) == 1 else None
+    if not hit: return None
+    last_game = max([g.get('gameDate', '') for g in (L.get('last5Games') or [])] or [''])
+    if hit.get('since') and last_game and last_game > hit['since']: return None   # has played since -> back
+    return {k: v for k, v in hit.items() if k != 'since' and v}
 
 def pct3(x): return ('%.3f' % x).lstrip('0') if x is not None else None
 
-def build(pid, goalie, cur):
+def build(pid, goalie, cur, inj=None):
     L = landing(pid)
     fs = L.get('featuredStats') or {}; rs = fs.get('regularSeason') or {}
     sub = rs.get('subSeason') if int(fs.get('season') or 0) == cur else None
     car = rs.get('career') or {}
+    pid = int(pid)
     e = {'id': pid, 'num': L.get('sweaterNumber'), 'team': L.get('currentTeamAbbrev')}
     if goalie:
         e['g'] = 1
@@ -87,6 +139,8 @@ def build(pid, goalie, cur):
             if s.get('season') == prev and s.get('leagueAbbrev') == 'NHL' and s.get('gameTypeId') == 2:
                 gp += s.get('gamesPlayed', 0); pts += s.get('points', 0)
         e['base'] = round(pts / gp, 3) if gp >= 20 else None     # "usual pace" for the cold rule
+    j = match_injury(inj, L, e['team'])
+    if j: e['inj'] = j
     return e
 
 def main():
@@ -107,17 +161,20 @@ def main():
     json.dump(ids, open(P('ids.json'), 'w', encoding='utf-8'), indent=1, sort_keys=True)
     cur = season_now(); label = '%02d-%02d' % (cur // 10000 % 100, cur % 100)
     players = {}
+    inj = injuries(report)
     for c in cards:
         pid = ids.get(c['key'])
         if not pid: continue
         try:
-            players[c['key']] = build(pid, c['pos'] == 'G', cur)
+            players[c['key']] = build(pid, c['pos'] == 'G', cur, inj)
         except Exception as ex:
             report['errors'][c['key']] = 'stats: %s' % ex
         time.sleep(0.25)
     out = {'season': label, 'updated': datetime.datetime.utcnow().strftime('%Y-%m-%dT%H:%M:%SZ'), 'players': players}
     json.dump(out, open(P('stats.json'), 'w', encoding='utf-8'), separators=(',', ':'), ensure_ascii=False)
     report['matched'] = len(players); report['cards'] = len(cards)
+    report['injured'] = sorted(k for k, v in players.items() if v.get('inj'))
+    report['espn_out_listed'] = len(inj) if inj is not None else None
     json.dump(report, open(P('report.json'), 'w', encoding='utf-8'), indent=1, ensure_ascii=False)
     print('matched %d/%d, unmatched %d, warnings %d, errors %d' % (len(players), len(cards), len(report['unmatched']), len(report['warnings']), len(report['errors'])))
 

@@ -3,5 +3,22 @@
  "warnings": {},
  "errors": {},
  "matched": 192,
- "cards": 192
+ "cards": 192,
+ "injured": [
+  "calgary/Huberdeau",
+  "carolina/Jarvis",
+  "chicago/Bedard",
+  "edmonton/Andersen",
+  "edmonton/Nugent-Hopkins",
+  "florida/Barkov",
+  "florida/Marchand",
+  "islanders/Barzal",
+  "la/Fiala",
+  "minnesota/Faber",
+  "philadelphia/Konecny",
+  "rangers/Shesterkin",
+  "vancouver/Demko",
+  "winnipeg/Hellebuyck"
+ ],
+ "espn_out_listed": 101
 }

@@ -7,7 +7,7 @@
   report.json  anything that could not be matched, or matched with a warning
 
 Injuries: ESPN's public NHL injury feed. A card gets "inj" when ESPN lists the player on Injured Reserve
-(IR / LTIR -- not plain "Out", day-to-day or suspended) and he has not played a game since it was reported.
+(IR / LTIR, whatever the reason -- not plain "Out", day-to-day or suspended) and he has not played a game since it was reported.
 
 Only the Python standard library is used. Matching: NHL player search by surname -> active players ->
 initial / position / birthplace filters -> CONFIRMED by birth date on the player's landing page.
@@ -93,7 +93,6 @@ def injuries(report):
             a = i.get('athlete') or {}; nm = norm(a.get('displayName') or '')
             if not nm: continue
             det = i.get('details') or {}
-            if 'susp' in norm(det.get('type') or '') + norm(det.get('detail') or ''): continue
             what = ' '.join(x for x in [det.get('side') if det.get('side') not in (None, 'Not Specified') else None,
                                          det.get('type'), det.get('detail')] if x) or None
             r = (det.get('returnDate') or '')[:10]

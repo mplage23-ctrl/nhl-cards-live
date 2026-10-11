@@ -6,8 +6,8 @@
   stats.json   what the cards read: this season, career, last 5 games, last season's PPG
   report.json  anything that could not be matched, or matched with a warning
 
-Injuries: ESPN's public NHL injury feed. A card gets "inj" when ESPN lists the player as Out (not day-to-day,
-not suspended) and he has not played a game since the injury was reported.
+Injuries: ESPN's public NHL injury feed. A card gets "inj" when ESPN lists the player on Injured Reserve
+(IR / LTIR -- not plain "Out", day-to-day or suspended) and he has not played a game since it was reported.
 
 Only the Python standard library is used. Matching: NHL player search by surname -> active players ->
 initial / position / birthplace filters -> CONFIRMED by birth date on the player's landing page.
@@ -77,7 +77,7 @@ def espn_abbrev(name):
     return None
 
 def injuries(report):
-    """-> {(TEAM, 'first last'): {...}} for players ESPN lists as Out (no day-to-day, no suspensions)."""
+    """-> {(TEAM, 'first last'): {...}} for players ESPN lists on Injured Reserve (IR / LTIR)."""
     try:
         d = get('https://site.api.espn.com/apis/site/v2/sports/hockey/nhl/injuries')
     except Exception as ex:
@@ -89,10 +89,11 @@ def injuries(report):
             st = (i.get('status') or '').strip(); typ = ((i.get('type') or {}).get('name') or '').upper()
             sl = st.lower()
             if 'day' in sl or 'susp' in sl or 'SUSPENSION' in typ or 'DAY' in typ: continue
-            if not ('out' in sl or 'reserve' in sl or 'OUT' in typ or 'RESERVE' in typ): continue
+            if not ('reserve' in sl or 'RESERVE' in typ or re.search(r'\bl?ti?r\b', sl)): continue   # IR / LTIR only
             a = i.get('athlete') or {}; nm = norm(a.get('displayName') or '')
             if not nm: continue
             det = i.get('details') or {}
+            if 'susp' in norm(det.get('type') or '') + norm(det.get('detail') or ''): continue
             what = ' '.join(x for x in [det.get('side') if det.get('side') not in (None, 'Not Specified') else None,
                                          det.get('type'), det.get('detail')] if x) or None
             r = (det.get('returnDate') or '')[:10]
@@ -174,7 +175,7 @@ def main():
     json.dump(out, open(P('stats.json'), 'w', encoding='utf-8'), separators=(',', ':'), ensure_ascii=False)
     report['matched'] = len(players); report['cards'] = len(cards)
     report['injured'] = sorted(k for k, v in players.items() if v.get('inj'))
-    report['espn_out_listed'] = len(inj) if inj is not None else None
+    report['espn_ir_listed'] = len(inj) if inj is not None else None
     json.dump(report, open(P('report.json'), 'w', encoding='utf-8'), indent=1, ensure_ascii=False)
     print('matched %d/%d, unmatched %d, warnings %d, errors %d' % (len(players), len(cards), len(report['unmatched']), len(report['warnings']), len(report['errors'])))
 

@@ -111,6 +111,42 @@ def match_injury(inj, L, team):
     if hit.get('since') and last_game and last_game > hit['since']: return None   # has played since -> back
     return {k: v for k, v in hit.items() if k != 'since' and v}
 
+# ---------- league: standings + top-10 points (shown in the app and on team pages) ----------
+def league(report):
+    out = {}
+    try:
+        st = get('https://api-web.nhle.com/v1/standings/now')
+        rows = []
+        for t in st.get('standings') or []:
+            if int(t.get('seasonId') or 0) and str(t.get('gameTypeId', 2)) not in ('2',): continue
+            rows.append({'a': (t.get('teamAbbrev') or {}).get('default'), 'n': (t.get('teamName') or {}).get('default'),
+                         'c': t.get('conferenceAbbrev'), 'd': t.get('divisionName'),
+                         'gp': t.get('gamesPlayed', 0), 'w': t.get('wins', 0), 'l': t.get('losses', 0), 'ot': t.get('otLosses', 0),
+                         'p': t.get('points', 0), 'pct': round(t.get('pointPctg') or 0, 3), 'gf': t.get('goalFor', 0), 'ga': t.get('goalAgainst', 0),
+                         'rw': t.get('regulationWins', 0), 'stk': (t.get('streakCode') or '') + str(t.get('streakCount') or ''),
+                         'l10': '%s-%s-%s' % (t.get('l10Wins', 0), t.get('l10Losses', 0), t.get('l10OtLosses', 0)),
+                         'ls': t.get('leagueSequence'), 'cs': t.get('conferenceSequence'), 'ds': t.get('divisionSequence'), 'wc': t.get('wildcardSequence')})
+        out['standings'] = rows; out['standings_date'] = st.get('standingsDateTimeUtc')
+    except Exception as ex:
+        report['errors']['_standings'] = str(ex)
+    try:
+        ld = get('https://api-web.nhle.com/v1/skater-stats-leaders/current?categories=points&limit=10').get('points') or []
+        cur = season_now(); lead = []
+        for p in ld:
+            e = {'id': p.get('id'), 'f': (p.get('firstName') or {}).get('default'), 'ln': (p.get('lastName') or {}).get('default'),
+                 'num': p.get('sweaterNumber'), 'team': p.get('teamAbbrev'), 'pos': p.get('position'), 'p': p.get('value'), 'hs': p.get('headshot')}
+            try:
+                L = landing(p['id']); fs = L.get('featuredStats') or {}; rs = fs.get('regularSeason') or {}
+                sub = rs.get('subSeason') if int(fs.get('season') or 0) == cur else None
+                if sub: e.update(gp=sub.get('gamesPlayed'), g=sub.get('goals'), a=sub.get('assists'))
+                time.sleep(0.2)
+            except Exception: pass
+            lead.append(e)
+        out['leaders'] = lead
+    except Exception as ex:
+        report['errors']['_leaders'] = str(ex)
+    return out
+
 def pct3(x): return ('%.3f' % x).lstrip('0') if x is not None else None
 
 def build(pid, goalie, cur, inj=None):
@@ -171,6 +207,7 @@ def main():
             report['errors'][c['key']] = 'stats: %s' % ex
         time.sleep(0.25)
     out = {'season': label, 'updated': datetime.datetime.utcnow().strftime('%Y-%m-%dT%H:%M:%SZ'), 'players': players}
+    out['league'] = league(report)
     json.dump(out, open(P('stats.json'), 'w', encoding='utf-8'), separators=(',', ':'), ensure_ascii=False)
     report['matched'] = len(players); report['cards'] = len(cards)
     report['injured'] = sorted(k for k, v in players.items() if v.get('inj'))

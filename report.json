@@ -6,7 +6,6 @@
  "cards": 192,
  "injured": [
   "calgary/Huberdeau",
-  "carolina/Jarvis",
   "edmonton/Andersen",
   "edmonton/Nugent-Hopkins",
   "florida/Barkov",
@@ -21,5 +20,5 @@
   "winnipeg/Hellebuyck",
   "winnipeg/Morrissey"
  ],
- "espn_ir_listed": 101
+ "espn_ir_listed": 100
 }

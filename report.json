@@ -5,6 +5,7 @@
  "matched": 192,
  "cards": 192,
  "injured": [
+  "anaheim/Mintyukov",
   "calgary/Huberdeau",
   "edmonton/Andersen",
   "florida/Barkov",
@@ -20,5 +21,5 @@
   "vancouver/Demko",
   "winnipeg/Morrissey"
  ],
- "espn_ir_listed": 103
+ "espn_ir_listed": 105
 }

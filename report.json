@@ -1,8 +1,10 @@
 {
- "unmatched": {},
+ "unmatched": {
+  "nashville/O\\": "0 candidates, none with birth date Feb 7, 1991"
+ },
  "warnings": {},
  "errors": {},
- "matched": 192,
+ "matched": 191,
  "cards": 192,
  "injured": [
   "anaheim/Mintyukov",
@@ -15,7 +17,6 @@
   "la/Fiala",
   "minnesota/Faber",
   "ottawa/Ullmark",
-  "philadelphia/Konecny",
   "pittsburgh/Rust",
   "rangers/Shesterkin",
   "seattle/McCann",
@@ -23,5 +24,5 @@
   "washington/Thompson",
   "winnipeg/Morrissey"
  ],
- "espn_ir_listed": 104
+ "espn_ir_listed": 102
 }

@@ -1072,12 +1072,12 @@
 "bp": "North Vancouver, BC"
 },
 {
-"key": "sanjose/Misa",
+"key": "sanjose/Stenberg",
 "slug": "sanjose",
-"name": "Misa",
-"pos": "C",
-"born": "Feb 16, 2007",
-"bp": "Oakville, ON"
+"name": "Stenberg",
+"pos": "LW",
+"born": "Sep 30, 2007",
+"bp": "Gothenburg, SWE"
 },
 {
 "key": "sanjose/Orlov",
@@ -1088,12 +1088,12 @@
 "bp": "Novokuznetsk, Russia"
 },
 {
-"key": "sanjose/Nurse",
+"key": "sanjose/Trouba",
 "slug": "sanjose",
-"name": "Nurse",
+"name": "Trouba",
 "pos": "RD",
-"born": "Feb 4, 1995",
-"bp": "Hamilton, ON"
+"born": "Feb 26, 1994",
+"bp": "Rochester, MI"
 },
 {
 "key": "sanjose/Askarov",

@@ -576,12 +576,12 @@
 "bp": "Gävle, Sweden"
 },
 {
-"key": "islanders/Palmieri",
+"key": "islanders/Schenn",
 "slug": "islanders",
-"name": "Palmieri",
-"pos": "LW",
-"born": "Feb 1, 1991",
-"bp": "Smithtown, NY"
+"name": "Schenn",
+"pos": "C",
+"born": "Aug 22, 1991",
+"bp": "Saskatoon, SK"
 },
 {
 "key": "islanders/Horvat",
@@ -856,12 +856,12 @@
 "bp": "Toronto, ON"
 },
 {
-"key": "newjersey/Allen",
+"key": "newjersey/Hellebuyck",
 "slug": "newjersey",
-"name": "Allen",
+"name": "Hellebuyck",
 "pos": "G",
-"born": "Aug 7, 1990",
-"bp": "Fredericton, NB"
+"born": "May 19, 1993",
+"bp": "Commerce, Twp., MI"
 },
 {
 "key": "ottawa/Stützle",

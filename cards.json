@@ -1440,12 +1440,12 @@
 "bp": "Sherwood Park, AB"
 },
 {
-"key": "washington/Ovechkin",
+"key": "washington/Leonard",
 "slug": "washington",
-"name": "Ovechkin",
+"name": "Leonard",
 "pos": "LW",
-"born": "Sep 17, 1985",
-"bp": "Moscow, Russia"
+"born": "Jan 21, 2005",
+"bp": "Northampton, MA"
 },
 {
 "key": "washington/Kyrou",
@@ -1456,12 +1456,12 @@
 "bp": "Toronto, ON"
 },
 {
-"key": "washington/Wilson",
+"key": "washington/Tuch",
 "slug": "washington",
-"name": "Wilson",
+"name": "Tuch",
 "pos": "RW",
-"born": "Mar 29, 1994",
-"bp": "Toronto, ON"
+"born": "May 10, 1996",
+"bp": "Syracuse, NY"
 },
 {
 "key": "washington/Chychrun",

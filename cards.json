@@ -1504,12 +1504,12 @@
 "bp": "Kitchener, ON"
 },
 {
-"key": "winnipeg/Vilardi",
+"key": "winnipeg/Perfetti",
 "slug": "winnipeg",
-"name": "Vilardi",
+"name": "Perfetti",
 "pos": "RW",
-"born": "Aug 16, 1999",
-"bp": "Kingston, ON"
+"born": "Jan 1, 2002",
+"bp": "Whitby, ON"
 },
 {
 "key": "winnipeg/Morrissey",
@@ -1528,11 +1528,11 @@
 "bp": "Hermantown, MN"
 },
 {
-"key": "winnipeg/Hellebuyck",
+"key": "winnipeg/Skinner",
 "slug": "winnipeg",
-"name": "Hellebuyck",
+"name": "Skinner",
 "pos": "G",
-"born": "May 19, 1993",
-"bp": "Commerce Twp., MI"
+"born": "Nov 1, 1998",
+"bp": "Edmonton, AB"
 }
 ]

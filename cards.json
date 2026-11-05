@@ -48,12 +48,12 @@
 "bp": "Brno, Czechia"
 },
 {
-"key": "boston/Geekie",
+"key": "boston/Hagens",
 "slug": "boston",
-"name": "Geekie",
+"name": "Hagens",
 "pos": "LW",
-"born": "Jul 20, 1998",
-"bp": "Strathclair, MB"
+"born": "Nov 3, 2006",
+"bp": "Hauppauge, NY"
 },
 {
 "key": "boston/E. Lindholm",
@@ -144,26 +144,26 @@
 "bp": "Espoo, Finland"
 },
 {
-"key": "calgary/Huberdeau",
+"key": "calgary/Gridin",
 "slug": "calgary",
-"name": "Huberdeau",
-"pos": "LW",
-"born": "Jun 4, 1993",
-"bp": "Saint-Jerome, QC"
+"name": "Gridin",
+"pos": "RW",
+"born": "Mar 1, 2006",
+"bp": "Kurgan, Russia"
 },
 {
-"key": "calgary/Backlund",
+"key": "calgary/Farabee",
 "slug": "calgary",
-"name": "Backlund",
-"pos": "C",
-"born": "Mar 17, 1989",
-"bp": "Västerås, Sweden"
+"name": "Farabee",
+"pos": "LW",
+"born": "Feb 25, 2000",
+"bp": "Cicero, NY"
 },
 {
 "key": "calgary/Frost",
 "slug": "calgary",
 "name": "Frost",
-"pos": "RW",
+"pos": "C",
 "born": "May 14, 1999",
 "bp": "Aurora, ON"
 },
@@ -232,12 +232,12 @@
 "bp": "Hopkins, MN"
 },
 {
-"key": "carolina/Bussi",
+"key": "carolina/Kochetkov",
 "slug": "carolina",
-"name": "Bussi",
+"name": "Kochetkov",
 "pos": "G",
-"born": "Jun 25, 1998",
-"bp": "Sound Beach, NY"
+"born": "Jun 25, 1999",
+"bp": "Penza, Russia"
 },
 {
 "key": "chicago/Frondell",
@@ -352,12 +352,12 @@
 "bp": "Nobleton, ON"
 },
 {
-"key": "columbus/Knies",
+"key": "columbus/K. Johnson",
 "slug": "columbus",
-"name": "Knies",
+"name": "K. Johnson",
 "pos": "LW",
-"born": "Oct 17, 2002",
-"bp": "Phoenix, AZ"
+"born": "Oct 18, 2002",
+"bp": "Port Moody, BC"
 },
 {
 "key": "columbus/Werenski",
@@ -504,12 +504,12 @@
 "bp": "Cologne, Germany"
 },
 {
-"key": "edmonton/Walman",
+"key": "edmonton/Ekholm",
 "slug": "edmonton",
-"name": "Walman",
+"name": "Ekholm",
 "pos": "LD",
-"born": "Feb 20, 1996",
-"bp": "Toronto, ON"
+"born": "May 24, 1990",
+"bp": "Borlänge, Sweden"
 },
 {
 "key": "edmonton/Bouchard",
@@ -760,12 +760,12 @@
 "bp": "Pointe-Claire, QC"
 },
 {
-"key": "montreal/Dobes",
+"key": "montreal/Fowler",
 "slug": "montreal",
-"name": "Dobes",
+"name": "Fowler",
 "pos": "G",
-"born": "May 27, 2001",
-"bp": "Ostrava, Czechia"
+"born": "Nov 24, 2004",
+"bp": "Melbourne, FL"
 },
 {
 "key": "nashville/Forsberg",

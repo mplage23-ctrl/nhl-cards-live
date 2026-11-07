@@ -5,6 +5,7 @@
  "matched": 192,
  "cards": 192,
  "injured": [
+  "boston/Hagens",
   "chicago/Byram",
   "detroit/Larkin",
   "edmonton/Andersen",
@@ -21,5 +22,5 @@
   "vancouver/Demko",
   "winnipeg/Morrissey"
  ],
- "espn_ir_listed": 102
+ "espn_ir_listed": 104
 }

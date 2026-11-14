@@ -11,7 +11,6 @@
   "edmonton/Andersen",
   "florida/Barkov",
   "florida/Marchand",
-  "islanders/Barzal",
   "pittsburgh/Rust",
   "rangers/Shesterkin",
   "seattle/McCann",
@@ -20,5 +19,5 @@
   "utah/Guenther",
   "vancouver/Demko"
  ],
- "espn_ir_listed": 87
+ "espn_ir_listed": 86
 }

@@ -9,10 +9,7 @@
   "boston/Hagens",
   "chicago/Bedard",
   "chicago/Byram",
-  "colorado/Makar",
   "edmonton/Andersen",
-  "florida/Barkov",
-  "florida/Marchand",
   "minnesota/Hughes",
   "montreal/Matheson",
   "pittsburgh/Rust",
@@ -21,5 +18,5 @@
   "toronto/Marchenko",
   "vancouver/Demko"
  ],
- "espn_ir_listed": 96
+ "espn_ir_listed": 92
 }

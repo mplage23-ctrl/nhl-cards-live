@@ -5,7 +5,6 @@
  "matched": 192,
  "cards": 192,
  "injured": [
-  "anaheim/Sennecke",
   "boston/Hagens",
   "chicago/Bedard",
   "chicago/Byram",
@@ -13,10 +12,11 @@
   "minnesota/Hughes",
   "montreal/Matheson",
   "pittsburgh/Rust",
+  "rangers/Perreault",
   "rangers/Shesterkin",
   "seattle/McCann",
   "toronto/Marchenko",
   "vancouver/Demko"
  ],
- "espn_ir_listed": 93
+ "espn_ir_listed": 92
 }
